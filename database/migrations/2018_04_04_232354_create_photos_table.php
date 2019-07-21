@@ -18,6 +18,7 @@ class CreatePhotosTable extends Migration
             $table->string('title');
             $table->string('description');
             $table->string('location');
+            $table->string('gallery_id');
             $table->string('image');
             $table->string('owner_id');
             $table->timestamps();
